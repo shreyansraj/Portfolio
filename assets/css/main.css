@@ -1215,10 +1215,12 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
-  position: relative; }
+  position: relative;
+}
   .image img {
     border-radius: 0.375em;
-    display: block; }
+    display: block;  
+  }
   .image.left, .image.right {
     max-width: 40%; }
     .image.left img, .image.right img {
@@ -2143,7 +2145,7 @@ button,
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
-      object-fit: cover;
+      object-fit: contain;
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
